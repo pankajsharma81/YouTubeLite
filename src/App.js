@@ -1,10 +1,15 @@
-
-import './App.css';
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let's build youTube Clone</h1>
+    <div>
+      <Navbar />
+
+      <div className="flex">
+        <Sidebar />
+        {/*Video render ... */}
+      </div>
     </div>
   );
 }
